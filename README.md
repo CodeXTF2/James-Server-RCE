@@ -5,4 +5,3 @@ James server exploit was used to escape rbash by spawning an unrestricted shell.
 
 This was based on an exploit script made by Jakub.
 Original exploit can be found at: https://www.exploit-db.com/exploits/35513
-# James-Server-RCE
